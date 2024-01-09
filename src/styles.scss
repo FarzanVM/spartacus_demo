@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+$styleVersion: 4.3;
+$primary:rgb(255, 89, 0);
+
+@import '~@spartacus/styles/index';
+header{
+    --cx-color-primary: blue;
+}
+
+cx-login a{
+    color:white;
+    font-weight: bold;
+}
